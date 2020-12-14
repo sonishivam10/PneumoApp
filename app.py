@@ -4,11 +4,12 @@ import functions
 from PIL import Image
 
 # App Title
+logo=Image.open('REALAI.jpg')
 st.image(logo, use_column_width=True)
 st.title("Curae PnuemoApp")
 
 # Introduction text
-logo=Image.open('REALAI.jpg')
+
 
 st.header("AI supported Pneumonia Detection App!")
 st.markdown(unsafe_allow_html=True, body="<p>Pneumonia is an infection that inflames the alveoli in one or both lungs. "
