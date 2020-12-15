@@ -30,9 +30,9 @@ def predict(model, img):
     #    prediction = False
     #return prob, prediction
     if  prob==0:
-	prediction="Normal"
+        prediction="Normal"
     elif prob==1:
-	prediction="Viral"
+        prediction="Viral"
     else:
-	prediction="Bacterial"
+        prediction="Bacterial"
 
