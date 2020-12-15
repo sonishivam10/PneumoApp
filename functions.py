@@ -17,13 +17,13 @@ def load_model():
 
 def preprocess_image(img):
     image = Image.open(img).convert("RGB")
-    p_img = image.resize((224,224))
+    p_img = image.resize((128,128))
 
     return np.array(p_img) / 255.0
 
 
 def predict(model, img):
-    prob = model.predict(np.reshape(img, [1, 224, 224, 3]))
+    prob = model.predict(np.reshape(img, [None, 128, 128, 1]))
     #if prob > 0.5:
     #    prediction = True
     #else:
