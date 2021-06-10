@@ -4,9 +4,9 @@ import functions
 from PIL import Image
 
 # App Title
-logo=Image.open('REALAI.jpg')
+logo=Image.open('PneumO.jpg')
 st.image(logo, use_column_width=True)
-st.title("Curae PnuemoApp")
+st.title("PnuemoApp")
 
 # Introduction text
 
