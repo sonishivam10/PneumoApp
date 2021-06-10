@@ -1,5 +1,8 @@
 # PneumoDetector
 
+![](https://github.com/sonishivam10/PneumoApp/blob/main/PneumO.jpg)
+
+
 Pneumonia is an infection that inflames the alveoli in one or both lungs. The alveoli may fill with pus, causing cough with phlegm or pus, fever, chills, and difficulty breathing. In general, pneumonia is caused by a virus, a bacteria or fungi.
 
 Pneumonia can range in seriousness from mild to life-threatening. It is most serious for infants and young children, people older than age 65, and people with health problems or weakened immune systems.
